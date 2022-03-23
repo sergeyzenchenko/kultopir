@@ -13,6 +13,27 @@ body, html {
   background-repeat: no-repeat;
 }
 
+.page-banner__lang {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.page-banner__link {
+  padding: 6px 10px 4px;
+  text-decoration: none;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.page-banner__link:active,
+.page-banner__link:hover,
+.page-banner__link:focus {
+  color: #fff;
+}
+
 .page-banner__title {
   position: absolute;
   left: 50%;
@@ -103,6 +124,13 @@ body, html {
   .page-banner {
     padding-top: 44.4451%;
     background-position: center 70%;
+  }
+
+  .page-banner__lang {
+    top: 40px;
+    left: revert;
+    right: 40px;
+    transform: none;
   }
 
   .page-content {
