@@ -30,7 +30,8 @@ body, html {
 
 .page-banner__link:active,
 .page-banner__link:hover,
-.page-banner__link:focus {
+.page-banner__link:focus,
+.page-banner__link.active {
   color: #fff;
 }
 
